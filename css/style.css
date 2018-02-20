@@ -1,0 +1,35 @@
+body {
+	background: url('../img/caralog10.jpg') ;
+	background-size: cover;
+}
+.call {
+	margin-top: 18px;
+}
+.logo {
+	padding: 10px 15px;
+}
+.call_phone {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	padding: 50px;
+	margin-top: 30px;
+}
+.call_phone:hover {
+	text-decoration: none;
+	color: gray;
+}
+.img_head {
+	text-align: center;
+	margin: 0 auto;
+}
+.img_head h1 {
+	color: white;
+	font-size: 80px;
+	margin-top: -120px;
+}
+
+.description_text {
+	color: white;
+	font-size: 
+}

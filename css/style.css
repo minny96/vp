@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Pattaya&subset=cyrillic');
 body {
 	background: url('../img/caralog10.jpg') ;
 	background-size: cover;
+	font-family: Pattaya, sans-serif;
 }
 .call {
 	margin-top: 18px;
@@ -31,5 +33,49 @@ body {
 
 .description_text {
 	color: white;
-	font-size: 
+	font-size: 26px;
+}
+
+.form_head {
+    text-align: center;
+	margin: 40px 0 10px 0;
+}
+/*
+.form_head input {
+    margin-right: 15px;
+}
+.form_head button {
+    height: 28px;
+}
+*/
+.btn {
+	font-family: Roboto, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	padding: 6px 25px;
+}
+.btn-lg {
+	font-size: 16px;
+	padding: 25px 35px;
+}
+.btn-default:hover,
+.btn-default:focus {
+	background-color: #0085a1;
+	border: 1px solid #0085a1;
+	color: white;
+}
+footer {
+	padding: 50px 0 7px;
+}
+footer .list-inline {
+	margin: 0;
+	padding: 0;
+}
+footer .copyright {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 0;
 }

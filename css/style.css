@@ -1,9 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Pattaya&subset=cyrillic');
+
+
+#page-preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #000000;
+	z-index: 100500;
+}
+
+#page-preloader .spinner {
+	width: 411px;
+	height: 582px;
+	display: block;
+	background: url('../img/logo_white.png') no-repeat 50% 50%;
+	margin:  0 auto;
+	text-align: center;
+}
+
+
 body {
 	background: url('../img/caralog10.jpg') ;
 	background-size: cover;
 	font-family: Pattaya, sans-serif;
+	//background: #0f0f0f;
 }
+
 .call {
 	margin-top: 18px;
 }

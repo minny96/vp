@@ -103,3 +103,41 @@ footer .copyright {
 	text-align: center;
 	margin-bottom: 0;
 }
+
+@media screen and (max-device-width: 320px){
+	body {
+		width: 100%;
+	}
+	.call_phone {
+		font-size: 18px;
+		padding: 35px;
+	}
+	.img_head img {
+		width: 300px;
+	}
+	.img_head h1 {
+		font-size: 39px;
+		margin-top: -100px;
+	}
+	.description_text {
+		font-size: 13px;
+		width: 100%;
+		text-align: center;
+	}
+	.form_head {
+		margin: 0;
+	}
+	.navbar-form {
+		margin: 0;
+	}
+	.form-control {
+		margin-bottom: 10px;
+	}
+	.btn {
+		width: 100%;
+	}
+	.row {
+		margin: 0;
+	}
+
+}

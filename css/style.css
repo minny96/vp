@@ -15,7 +15,7 @@
 	width: 411px;
 	height: 582px;
 	display: block;
-	background: url('../img/logo_white.png') no-repeat 50% 50%;
+	//background: url('../img/logo_white.png') no-repeat 50% 50%;
 	margin:  0 auto;
 	text-align: center;
 }
@@ -38,8 +38,7 @@ body {
 	text-decoration: none;
 	font-size: 22px;
 	color: white;
-	padding: 50px;
-	margin-top: 30px;
+	float: right;
 }
 .call_phone:hover {
 	text-decoration: none;
@@ -63,6 +62,9 @@ body {
 .form_head {
     text-align: center;
 	margin: 40px 0 10px 0;
+}
+.nav_scr{
+	background-color: #0f0f0f;
 }
 /*
 .form_head input {
@@ -110,7 +112,52 @@ footer .copyright {
 	}
 	.call_phone {
 		font-size: 18px;
-		padding: 35px;
+		float: right;
+		padding: 0;
+		margin-top: 0;
+	}
+	.img_head img {
+		width: 300px;
+	}
+	.img_head h1 {
+		font-size: 39px;
+		margin-top: -100px;
+	}
+	.description_text {
+		font-size: 13px;
+		width: 100%;
+		text-align: center;
+	}
+	.form_head {
+		margin: 0;
+	}
+	.navbar-form {
+		margin: 0;
+	}
+	.form-control {
+		margin-bottom: 10px;
+	}
+	.btn {
+		width: 100%;
+	}
+	.row {
+		margin: 0;
+	}
+	#page-preloader .spinner {
+		width: 320px;
+		height: 520px;
+	}
+
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 600px){
+	body {
+		width: 100%;
+	}
+	.call_phone {
+		font-size: 18px;
+		float: right;
+		padding: 0;
+		margin-top: 0;
 	}
 	.img_head img {
 		width: 300px;
